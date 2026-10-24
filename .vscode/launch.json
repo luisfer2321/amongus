@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Jugar Among Us",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/amongus.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

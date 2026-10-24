@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Instalar dependencias",
+            "type": "shell",
+            "command": "python -m pip install -r requirements.txt",
+            "problemMatcher": []
+        },
+        {
+            "label": "Jugar Among Us",
+            "type": "shell",
+            "command": "python amongus.py",
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        }
+    ]
+}
